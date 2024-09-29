@@ -1,0 +1,27 @@
+.task-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-list th, .task-list td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.task-list th {
+    background-color: #f2f2f2;
+}
+
+.task-list tr:hover {
+    background-color: #f9f9f9;
+}
+
+.task-list button {
+    margin-right: 5px;
+    padding: 8px 12px; /* Add padding */
+}
+
+.task-list button:hover {
+    background-color: #e7e7e7; /* Hover effect */
+}
